@@ -18,8 +18,8 @@ print("Torchvision version:", torchvision.__version__)
 print("CUDA is available:", torch.cuda.is_available())
 
 # file_name = "dog"
-# file_name = '20230412_103006' # leila's test
-file_name = 'bridge'
+file_name = '20230412_103006' # leila's test
+# file_name = 'bridge'
 
 def show_anns(anns):
     if len(anns) == 0:
