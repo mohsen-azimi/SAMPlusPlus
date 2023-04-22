@@ -1,5 +1,6 @@
 import subprocess
 import socket
+
 def git_add_commit_push():
     subprocess.run(["git", "add", "*.py"])
     subprocess.run(["git", "add", "*.md"])
@@ -11,4 +12,4 @@ def git_add_commit_push():
 
 if __name__ == '__main__':
     git_add_commit_push()
-()
+
