@@ -18,7 +18,7 @@ print("Torchvision version:", torchvision.__version__)
 print("CUDA is available:", torch.cuda.is_available())
 
 # file_name = "dog"
-file_name = '20230412_103006' # leila's test
+file_name = '2023-04-12 14.27.01-1.jpg' # leila's test
 # file_name = 'bridge'
 
 def show_anns(anns):
